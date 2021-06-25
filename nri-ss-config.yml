@@ -1,0 +1,10 @@
+integration_name: com.newrelic.nri-ss
+
+instances:
+  - name: SocketStatistics
+    command: metrics
+    arguments:
+      resolve:  false
+      filter:
+    labels:
+      env: production

@@ -1,0 +1,5 @@
+bin
+coverage.xml
+metrics
+vendor/github.com
+*.zip

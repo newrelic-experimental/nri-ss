@@ -1,0 +1,11 @@
+name: com.newrelic.nri-ss
+description: Reports TCP statistics from the iproute2 ss command
+protocol_version: 2
+os: linux
+
+commands:
+    metrics:
+        command:
+          - ./nri-ss
+          - --metrics
+        interval: 15
